@@ -1,14 +1,19 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
-    const linkStyle = 'text-stone-800 text-sm font-light hover:text-gray-500'
+    const linkStyle = 'text-stone-500 text-sm font-light hover:text-gray-500'
   return (
-    <nav className='mb-12 border-b pt-20 w-full flex flex-col items-center'>
-        <h1 className='text-stone-900 pb-12 text-4xl'>
-        Pure Shakti
-        </h1>
-        <div className='pb-6 flex space-x-16 uppercase'>   
+    <nav className='border-b pt-12 w-full flex flex-col items-center'>
+        <Image
+            src='/logo-nosub.png'
+            alt='Logo'
+            width={1000}
+            height={197}
+            className='w-[350px] mb-8'
+        />
+        <div className='pb-6 flex space-x-20'>   
             <Link href='/' className={linkStyle}>
                 Home
             </Link>
@@ -19,10 +24,10 @@ export default function Navbar() {
                 Yoga
             </Link>
             <Link href='/' className={linkStyle}>
-                About
+                Ayurveda
             </Link>
-            <Link href='/' className={linkStyle}>
-                Contact
+            <Link href='/about' className={linkStyle}>
+                About Me
             </Link>
         </div>
     </nav>

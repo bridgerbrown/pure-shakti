@@ -4,21 +4,21 @@ import Image from 'next/image'
 import Mission from '@/components/Home/Mission'
 import Skincare from '@/components/Home/Specialties'
 import Post from '@/components/Blog/Post'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <div className='min-h-screen w-full'>
+    <div className='relative min-h-screen w-screen'>
       <Navbar />
-      <Post />
       {/* <Image 
         src="/white-bg.jpg"
         alt="White background"
         width={3700}
         height={2220}
         className='h-[600px]'
-      />
-      <Mission /> */}
-      {/* <Skincare /> */}
+      /> */}
+      {/* <Mission />  */}
+      <Footer />
     </div>
   )
 }
