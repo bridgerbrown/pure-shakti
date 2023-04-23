@@ -5,7 +5,7 @@ import React from 'react'
 export default function Navbar() {
     const linkStyle = 'text-stone-500 text-sm font-light hover:text-gray-500'
   return (
-    <nav className='border-b pt-12 w-full flex flex-col items-center'>
+    <nav className='font-lato border-b pt-12 w-full flex flex-col items-center '>
         <Image
             src='/logo-nosub.png'
             alt='Logo'
@@ -17,13 +17,13 @@ export default function Navbar() {
             <Link href='/' className={linkStyle}>
                 Home
             </Link>
-            <Link href='/' className={linkStyle}>
+            <Link href='/skincare' className={linkStyle}>
                 Skincare
             </Link>
-            <Link href='/' className={linkStyle}>
+            <Link href='/yoga' className={linkStyle}>
                 Yoga
             </Link>
-            <Link href='/' className={linkStyle}>
+            <Link href='/ayurveda' className={linkStyle}>
                 Ayurveda
             </Link>
             <Link href='/about' className={linkStyle}>

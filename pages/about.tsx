@@ -4,14 +4,15 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function About() {
+    const divStyle: string = ``
   return (
-    <main className='relative min-h-screen w-screen'>
+    <main className='font-lato relative min-h-screen w-screen'>
         <Navbar />
-        <header className='w-full text-center h-36 mb-4 flex justify-center items-center'>
-            <h1 className='text-3xl font-serif text-stone-600'>About</h1>
+        <header className='h-36 mb-4 flex justify-center items-center'>
+            <h1 className='w-11/12 text-3xl font-serif text-stone-400 italic'>About</h1>
         </header>
         <section className='mb-24 space-y-20 flex flex-col justify-center items-center'>
-            <div className='w-[80vw] flex'>
+            <div className='w-11/12 xl:w-[1200px] flex'>
                 <div className='w-1/2 flex justify-start'>
                     <Image
                         src='/white-bg.jpg'
@@ -33,7 +34,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='w-[80vw] flex'>
+            <div className='w-11/12 xl:w-[1200px] flex'>
                 <div className='mr-4 w-1/2 text-stone-700 flex flex-col'>
                     <p className='leading-7'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eligendi facere explicabo nobis sint, eaque labore reprehenderit nulla rem laboriosam dolore quis iure vel quidem quia corporis odio provident repellat numquam quisquam qui quas hic sit! Veniam, quos eum dolor impedit illo voluptatem ut minus asperiores nostrum, laudantium, quas dignissimos vel similique? Accusamus, pariatur labore, nihil fuga odit ratione architecto in, cumque magni rerum sunt dicta deleniti corporis hic assumenda. Quasi omnis assumenda est quae.
