@@ -10,19 +10,19 @@ export default function About() {
         <header className='w-full text-center h-36 mb-4 flex justify-center items-center'>
             <h1 className='text-3xl font-serif text-stone-600'>About</h1>
         </header>
-        <section className='pb-72 space-y-32 flex flex-col justify-center items-center'>
-            <div className='w-[85vw] flex'>
-                <div className='w-1/2 flex justify-end'>
+        <section className='mb-24 space-y-20 flex flex-col justify-center items-center'>
+            <div className='w-[80vw] flex'>
+                <div className='w-1/2 flex justify-start'>
                     <Image
                         src='/white-bg.jpg'
                         alt='White background'
                         width={3700}
                         height={2220}
-                        className='w-[500px] h-[450px] rounded-md'
+                        className='w-[500px] h-[400px] object-cover rounded-md'
                     />
                 </div>
-                <div className='w-1/2 text-stone-700 flex flex-col ml-12'>
-                    <h2 className='text-4xl font-serif mb-1'>
+                <div className='w-1/2 text-stone-700 flex flex-col ml-4'>
+                    <h2 className='text-3xl font-serif mb-1'>
                         Kim Brown
                     </h2>
                     <h3 className='mb-4'>
@@ -33,11 +33,12 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className='w-[85vw] flex'>
-                <div className='w-1/2 text-stone-700 flex flex-col mr-12'>
+            <div className='w-[80vw] flex'>
+                <div className='mr-4 w-1/2 text-stone-700 flex flex-col'>
                     <p className='leading-7'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eligendi facere explicabo nobis sint, eaque labore reprehenderit nulla rem laboriosam dolore quis iure vel quidem quia corporis odio provident repellat numquam quisquam qui quas hic sit! Veniam, quos eum dolor impedit illo voluptatem ut minus asperiores nostrum, laudantium, quas dignissimos vel similique? Accusamus, pariatur labore, nihil fuga odit ratione architecto in, cumque magni rerum sunt dicta deleniti corporis hic assumenda. Quasi omnis assumenda est quae.
                     </p>
+                    
                 </div>
                 <div className='w-1/2 flex justify-end'>
                     <Image
@@ -45,19 +46,26 @@ export default function About() {
                         alt='White background'
                         width={3700}
                         height={2220}
-                        className='w-[500px] h-[450px] rounded-md'
+                        className='w-[500px] h-[400px] object-cover rounded-md'
                     />
                 </div>
             </div>
+        </section>
+        <section className='mb-24'>
             <div className='py-20 flex w-full justify-center bg-stone-100'>
-                <div className='w-[85vw] text-center text-stone-600 flex flex-col mr-12'>
-                    <p className='leading-9 text-xl'>
+                <div className='w-[70vw] text-center text-stone-600 flex flex-col mr-12'>
+                    <p className='leading-9 text-lg'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dicta commodi culpa at accusantium. Repellendus excepturi sunt pariatur, velit itaque reprehenderit fugit molestiae dignissimos ratione! Dicta officia, minima enim officiis, velit qui obcaecati debitis incidunt, ut asperiores deleniti ex maxime?
                     </p>
                     <br />
                     <p>-Buddha</p>
                 </div>
             </div>
+        </section>
+        <section className='pb-72 flex flex-col justify-center items-center'>
+            <h2 className='text-2xl'>
+                Contact Me
+            </h2>
         </section>
         <Footer />
     </main>
