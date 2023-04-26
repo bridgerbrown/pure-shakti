@@ -9,20 +9,20 @@ export default function About() {
     <main className='font-lato relative min-h-screen w-screen'>
         <Navbar />
         <header className='h-36 mb-4 flex justify-center items-center'>
-            <h1 className='w-11/12 text-3xl font-serif text-stone-400 italic'>About</h1>
+            <h1 className='w-11/12 xl:w-[1100px] text-3xl font-serif text-stone-400 italic'>About</h1>
         </header>
         <section className='mb-24 space-y-20 flex flex-col justify-center items-center'>
-            <div className='w-11/12 xl:w-[1200px] flex'>
-                <div className='w-1/2 flex justify-start'>
+            <div className='w-11/12 xl:w-[1100px] flex'>
+                <div className='w-1/3 flex justify-start'>
                     <Image
-                        src='/white-bg.jpg'
-                        alt='White background'
-                        width={3700}
-                        height={2220}
-                        className='w-[500px] h-[400px] object-cover rounded-md'
+                        src='/woman-portrait.jpg'
+                        alt='woman portrait filler image'
+                        width={1000}
+                        height={1000}
+                        className='w-[350px] h-[350px] object-cover rounded-md opacity-95'
                     />
                 </div>
-                <div className='w-1/2 text-stone-700 flex flex-col ml-4'>
+                <div className='w-2/3 text-stone-700 flex flex-col ml-10'>
                     <h2 className='text-3xl font-serif mb-1'>
                         Kim Brown
                     </h2>
@@ -32,22 +32,26 @@ export default function About() {
                     <p className='leading-7'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eligendi facere explicabo nobis sint, eaque labore reprehenderit nulla rem laboriosam dolore quis iure vel quidem quia corporis odio provident repellat numquam quisquam qui quas hic sit! Veniam, quos eum dolor impedit illo voluptatem ut minus asperiores nostrum, laudantium, quas dignissimos vel similique? Accusamus, pariatur labore, nihil fuga odit ratione architecto in, cumque magni rerum sunt dicta deleniti corporis hic assumenda. Quasi omnis assumenda est quae.
                     </p>
+                    <br/>
+                    <p className='leading-7'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui. Consectetur nesciunt unde quia nulla pariatur iste molestiae. Sapiente, nihil?
+                    </p>
                 </div>
             </div>
-            <div className='w-11/12 xl:w-[1200px] flex'>
-                <div className='mr-4 w-1/2 text-stone-700 flex flex-col'>
+            <div className='w-11/12 xl:w-[1100px] flex'>
+                <div className='mr-10 w-2/3 text-stone-700 flex flex-col'>
                     <p className='leading-7'>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime eligendi facere explicabo nobis sint, eaque labore reprehenderit nulla rem laboriosam dolore quis iure vel quidem quia corporis odio provident repellat numquam quisquam qui quas hic sit! Veniam, quos eum dolor impedit illo voluptatem ut minus asperiores nostrum, laudantium, quas dignissimos vel similique? Accusamus, pariatur labore, nihil fuga odit ratione architecto in, cumque magni rerum sunt dicta deleniti corporis hic assumenda. Quasi omnis assumenda est quae.
                     </p>
                     
                 </div>
-                <div className='w-1/2 flex justify-end'>
+                <div className='w-1/3 flex justify-end'>
                     <Image
                         src='/white-bg.jpg'
                         alt='White background'
                         width={3700}
                         height={2220}
-                        className='w-[500px] h-[400px] object-cover rounded-md'
+                        className='w-[350px] h-[350px] object-cover rounded-md'
                     />
                 </div>
             </div>
