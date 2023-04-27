@@ -14,7 +14,8 @@ module.exports = {
         'woman-facial': 'url(/woman-facial.jpg)',
       },
       fontFamily: {
-        lato: ['var(--font-lato)']
+        lato: ['var(--font-lato)'],
+        svarga: ['var(--font-svarga)'],
       },
     },
   },

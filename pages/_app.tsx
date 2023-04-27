@@ -1,16 +1,21 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Lato } from 'next/font/google'
+import localFont from 'next/font/local'
 
-const lato = Lato({
-  subsets: ['latin-ext'],
-  weight: ['100', '300', '400', '700', '900'],
-  variable: '--font-lato',
+const svarga = localFont({
+  src: [
+    {
+      path: '../public/fonts/Svarga.otf',
+      weight: 'normal',
+    }
+  ],
+  variable: '--font-svarga',
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <main className={`${lato.variable} font-serif`}>
+    <main className={`${svarga.variable} font-serif`}>
       <Component {...pageProps} />
     </main>
   )

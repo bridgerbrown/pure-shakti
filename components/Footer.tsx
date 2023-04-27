@@ -1,11 +1,30 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Footer() {
+  const iconStyle = 'w-min h-6'
+
   return (
-    <footer className='absolute bottom-0 w-screen flex justify-center text-center'>
-        <h1 className='py-12 text-sm text-stone-500'>
-            Pure Shakti
-        </h1>
+    <footer className='py-8 px-28 text-white bg-stone-400 font-sans absolute bottom-0 w-screen flex justify-between text-center'>
+      <h1 className='text-base font-light'>
+        Copyright ©2023 Pure Shakti
+      </h1>
+      <div className='h-full justify-center items-center flex space-x-6'>
+        <Image
+          src='/socials/ig-icon.png'
+          alt='instagram icon'
+          width={571}
+          height={572}
+          className={iconStyle}
+        />
+        <Image
+          src='/socials/fb-icon.png'
+          alt='facebook icon'
+          width={336}
+          height={638}
+          className={iconStyle}
+        />
+      </div>
     </footer>
   )
 }

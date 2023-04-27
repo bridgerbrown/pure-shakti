@@ -6,8 +6,9 @@ import Skincare from '@/components/Home/Specialties'
 import Post from '@/components/Blog/Post'
 import Footer from '@/components/Footer'
 import AboutCard from '@/components/Home/AboutCard'
-import Gallery from '@/components/Home/Gallery'
+import Categories from '@/components/Home/Categories'
 import LatestPosts from '@/components/Home/LatestPosts'
+import Socials from '@/components/Home/Socials'
 
 export default function Home() {
   return (
@@ -23,8 +24,9 @@ export default function Home() {
       <Mission /> 
       <AboutCard />
       <LatestPosts />
-      <Gallery />
-      <div className='pb-72'></div>
+      <Categories />
+      <Socials />
+      <div className='pb-20'></div>
       <Footer />
     </div>
   )

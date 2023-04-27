@@ -3,17 +3,17 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
-    const linkStyle = 'text-stone-500 text-sm font-light hover:text-gray-500'
+    const linkStyle = 'font-sans text-stone-500 text-base font-light hover:text-gray-500'
   return (
-    <nav className='font-lato border-b pt-12 w-full flex flex-col items-center '>
+    <nav className='font-lato border-b px-8 py-8 w-full flex items-center justify-between'>
         <Image
             src='/logo-nosub.png'
             alt='Logo'
             width={1000}
             height={197}
-            className='w-[350px] mb-8'
+            className='w-[250px]'
         />
-        <div className='pb-6 flex space-x-20'>   
+        <div className='flex space-x-10'>   
             <Link href='/' className={linkStyle}>
                 Home
             </Link>
