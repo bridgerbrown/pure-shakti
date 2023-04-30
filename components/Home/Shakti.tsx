@@ -3,10 +3,10 @@ import React from 'react'
 export default function Shakti() {
   return (
     <section>
-          <section className='py-48 space-y-20 flex flex-col justify-center items-center'>
+          <section className='py-60 space-y-20 flex flex-col justify-center items-center'>
         <div className='w-11/12 xl:w-[1000px] flex'>
             <div className='absolute'>
-                <h1 className='font-serif relative -top-48 z-0 right-20 text-stone-400 opacity-10 text-[35em]'>
+                <h1 className='font-serif relative -top-52 z-0 right-20 text-stone-400 opacity-10 text-[35em]'>
                     शक्ति
                 </h1>
             </div>
