@@ -3,11 +3,11 @@ import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
-    const linkStyle = 'font-sans text-stone-500 text-base font-light hover:text-gray-500'
+    const linkStyle = 'font-sans text-base font-light hover:text-gray-500'
   return (
-    <nav className='font-lato border-b px-8 py-8 w-full flex items-center justify-between'>
+    <nav className='bg-[#ceead6] font-lato px-8 py-8 w-full flex items-center justify-between'>
         <Image
-            src='/logo-nosub.png'
+            src='/ps-logo-black.png'
             alt='Logo'
             width={1000}
             height={197}

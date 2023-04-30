@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function AboutCard() {
   return (
-    <section className='bg-green-100 pt-28 pb-32 space-y-20 flex flex-col justify-center items-center'>
+    <section className='pt-48 pb-52 space-y-20 flex flex-col justify-center items-center'>
         <div className='w-11/12 xl:w-[900px] flex'>
             <div className='flex justify-start'>
                 <Image
@@ -15,7 +15,7 @@ export default function AboutCard() {
                 />
             </div>
             <div className='font-sans w-2/3 text-stone-800 flex flex-col ml-10'>
-                <h2 className='font-svarga text-6xl mb-2'>
+                <h2 className='font-svarga text-5xl mb-2'>
                     Kim Brown
                 </h2>
                 <h3 className='uppercase mb-4'>

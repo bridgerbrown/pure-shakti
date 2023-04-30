@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import Mission from '@/components/Home/Mission'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import React from 'react'
@@ -6,7 +7,7 @@ import React from 'react'
 export default function About() {
     const divStyle: string = ``
   return (
-    <main className='font-lato relative min-h-screen w-screen'>
+    <main className='font-sans relative min-h-screen w-screen'>
         <Navbar />
         <header className='h-36 mb-4 flex justify-center items-center'>
             <h1 className='w-11/12 xl:w-[1100px] text-3xl font-serif text-stone-400 italic'>About</h1>
@@ -23,7 +24,7 @@ export default function About() {
                     />
                 </div>
                 <div className='w-2/3 text-stone-700 flex flex-col ml-10'>
-                    <h2 className='text-3xl font-serif mb-1'>
+                    <h2 className='text-3xl font-svarga mb-1'>
                         Kim Brown
                     </h2>
                     <h3 className='mb-4'>
@@ -56,7 +57,7 @@ export default function About() {
                 </div>
             </div>
         </section>
-        <section className='mb-24'>
+        {/* <section className='mb-24'>
             <div className='py-20 flex w-full justify-center bg-stone-100'>
                 <div className='w-[70vw] text-center text-stone-600 flex flex-col mr-12'>
                     <p className='leading-9 text-lg'>
@@ -66,9 +67,10 @@ export default function About() {
                     <p>-Buddha</p>
                 </div>
             </div>
-        </section>
-        <section className='pb-72 flex flex-col justify-center items-center'>
-            <h2 className='text-2xl'>
+        </section> */}
+        <Mission />
+        <section className='mt-24 pb-72 flex flex-col justify-center items-center'>
+            <h2 className='text-4xl'>
                 Contact Me
             </h2>
         </section>

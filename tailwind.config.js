@@ -11,7 +11,8 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'woman-facial': 'url(/woman-facial.jpg)',
+        'facialwoman': 'url(/facial-woman.jpg)',
+        'yogawoman': 'url(/yoga-woman.jpg)',
       },
       fontFamily: {
         lato: ['var(--font-lato)'],
