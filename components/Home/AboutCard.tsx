@@ -15,7 +15,7 @@ export default function AboutCard() {
                 />
             </div>
             <div className='font-sans w-2/3 text-stone-800 flex flex-col ml-10'>
-                <h2 className='font-svarga text-5xl mb-2'>
+                <h2 className='font-svarga text-5xl mb-2 text-emerald-900'>
                     Kim Brown
                 </h2>
                 <h3 className='uppercase mb-4'>

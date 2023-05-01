@@ -14,7 +14,7 @@ import Landing from '@/components/Home/Landing'
 
 export default function Home() {
   return (
-    <div className='bg-[#f3f7eb] relative min-h-screen w-screen'>
+    <div className='bg-primaryTwo relative min-h-screen w-screen'>
       <Navbar />
       {/* <Image 
         src="/white-bg.jpg"
@@ -26,10 +26,10 @@ export default function Home() {
       <Landing />
       {/* <Mission /> */}
       <Shakti />
-      <section className='bg-cover opacity-80 bg-fixed h-[800px] object-cover bg-yogawoman'></section>
+      <section className='bg-cover opacity-70 bg-fixed h-[800px] object-cover bg-yogawoman'></section>
       <LatestPosts />
       <AboutCard />
-      <section className='bg-cover opacity-80 bg-fixed h-[800px] object-cover bg-facialwoman'></section>
+      <section className='bg-cover opacity-70 bg-fixed h-[800px] object-cover bg-facialwoman'></section>
       <div className='pb-20'></div>
       <Footer />
     </div>
