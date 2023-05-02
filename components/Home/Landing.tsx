@@ -7,7 +7,7 @@ export default function Landing() {
       <div className='w-[500px] h-[500px] mt-24 mr-12 flex flex-col items-end justify-start'>
         <div className='text-center flex flex-col items-center justify-center'>
 
-          <h1 className='font-sans text-stone-600 font-semibold text-5xl mb-3'>
+          <h1 className='font-sans text-h3Two font-semibold text-5xl mb-3'>
             Mind. Body. Spirit.
           </h1>
           <h2 className='text-lg font-sans font-light max-w-[25rem] mr-2'>
