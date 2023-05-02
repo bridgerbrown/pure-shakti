@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Mission() {
   return (
-    <section className='bg-green-100 w-full flex flex-col justify-center items-center'>
+    <section className='bg-secondaryTwo w-full flex flex-col justify-center items-center'>
         <div className='font-sans py-44 w-9/12 flex flex-col justify-center items-center'>
             <Image
               src="/icons/flower-icon-g.png"

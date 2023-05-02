@@ -11,10 +11,11 @@ import LatestPosts from '@/components/Home/LatestPosts'
 import Socials from '@/components/Home/Socials'
 import Shakti from '@/components/Home/Shakti'
 import Landing from '@/components/Home/Landing'
+import LandingTwo from '@/components/Home/LandingTwo'
 
 export default function Home() {
   return (
-    <div className='bg-primaryTwo relative min-h-screen w-screen'>
+    <div className='bg-secondaryTwo relative min-h-screen w-screen'>
       <Navbar />
       {/* <Image 
         src="/white-bg.jpg"
@@ -24,6 +25,7 @@ export default function Home() {
         className='h-[1000px]'
       />  */}
       <Landing />
+      {/* <LandingTwo /> */}
       {/* <Mission /> */}
       <Shakti />
       <section className='bg-cover opacity-70 bg-fixed h-[800px] object-cover bg-yogawoman'></section>

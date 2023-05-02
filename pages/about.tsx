@@ -7,12 +7,12 @@ import React from 'react'
 export default function About() {
     const divStyle: string = ``
   return (
-    <main className='font-sans relative min-h-screen w-screen'>
+    <main className='bg-primaryTwo font-cormorant relative min-h-screen w-screen'>
         <Navbar />
         <header className='h-36 mb-4 flex justify-center items-center'>
-            <h1 className='w-11/12 xl:w-[1100px] text-3xl font-serif text-stone-400 italic'>About</h1>
+            <h1 className='w-11/12 xl:w-[1100px] text-4xl italic'>About</h1>
         </header>
-        <section className='mb-24 space-y-20 flex flex-col justify-center items-center'>
+        <section className=' mb-24 space-y-20 flex flex-col justify-center items-center'>
             <div className='w-11/12 xl:w-[1100px] flex'>
                 <div className='w-1/3 flex justify-start'>
                     <Image
@@ -24,10 +24,10 @@ export default function About() {
                     />
                 </div>
                 <div className='w-2/3 text-stone-700 flex flex-col ml-10'>
-                    <h2 className='text-3xl font-svarga mb-1'>
+                    <h2 className='text-5xl mb-1'>
                         Kim Brown
                     </h2>
-                    <h3 className='mb-4'>
+                    <h3 className='mb-4 font-semibold'>
                         Esthetician, Yoga Instructor, Lover
                     </h3>
                     <p className='leading-7'>

@@ -15,14 +15,15 @@ module.exports = {
         'yogawoman': 'url(/yoga-woman.jpg)',
       },
       fontFamily: {
-        lato: ['var(--font-lato)'],
+        cormorant: ['var(--font-cormorant)'],
+        cinzel: ['var(--font-cinzel)'],
         svarga: ['var(--font-svarga)'],
       },
       colors: {
         'primaryOne': '#ceead6',
         'secondaryOne': '#ebe1cb',
         'primaryTwo': '#cffcdf',
-        'secondaryTwo': '#DBFFE8',
+        'secondaryTwo': '#c7f5d3',
         'h2Two': '#73ba8c',
         'h3Two': '#284030',
       },

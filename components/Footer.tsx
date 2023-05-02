@@ -6,7 +6,7 @@ export default function Footer() {
 
   return (
     <footer className='py-8 px-28 font-sans absolute bottom-0 w-screen flex justify-between text-center'>
-      <h1 className='text-base font-light'>
+      <h1 className='text-base font-light font-cormorant'>
         Copyright ©2023 Pure Shakti
       </h1>
       <div className='invert h-full justify-center items-center flex space-x-6'>
