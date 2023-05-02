@@ -5,7 +5,7 @@ import React from 'react'
 export default function Navbar() {
     const linkStyle = 'font-cormorant text-lg hover:text-gray-500'
   return (
-    <nav className='bg-primaryTwo font-lato px-8 py-2 w-full flex items-center justify-between'>
+    <nav className='bg-secondaryTwo font-lato px-8 py-2 w-full flex items-center justify-between'>
         <Image
             src='/ps-logo-black.png'
             alt='Logo'
