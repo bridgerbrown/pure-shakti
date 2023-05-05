@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function Footer() {
-  const iconStyle = 'w-min h-6'
+  const iconStyle = 'opacity-70 w-min h-6'
 
   return (
     <footer className='py-8 px-28 font-sans absolute bottom-0 w-screen flex justify-between text-center'>

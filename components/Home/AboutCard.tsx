@@ -15,10 +15,10 @@ export default function AboutCard() {
                 />
             </div>
             <div className='font-cormorant w-2/3 text-stone-800 flex flex-col ml-10'>
-                <h2 className='font-semibold text-5xl mb-2 text-h3Two'>
+                <h2 className='opacity-90 font-semibold text-5xl mb-2 text-h3Two'>
                     Kim Brown
                 </h2>
-                <h3 className='font-semibold uppercase mb-4'>
+                <h3 className='opacity-90 font-semibold uppercase mb-4'>
                     Esthetician, Yoga Instructor, Lover
                 </h3>
                 <p className='text-stone-600 font-light text-lg leading-7'>

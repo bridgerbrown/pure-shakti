@@ -4,7 +4,7 @@ export default function LatestPosts() {
     return (
         <section className='bg-secondaryTwo py-20 flex flex-col justify-center items-center'>
             <div className='flex justify-center items-center flex-col w-11/12'>
-                <h1 className='text-h3Two font-semibold text-3xl font-cormorant tracking-wide'>
+                <h1 className='opacity-90 text-h3Two font-semibold text-3xl font-cormorant tracking-wide'>
                     Latest Posts
                 </h1>  
                 <div className='h-[800px]'></div>

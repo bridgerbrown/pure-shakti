@@ -11,7 +11,7 @@ export default function Shakti() {
                 </h1>
             </div>
             <div className='text-stone-600 z-10 text-center py-24 text-centerfont-sans w-full flex flex-col items-center'>
-                <h2 className='font-cormorant font-bold text-4xl mb-4 text-h3Two'>
+                <h2 className='opacity-90 font-cormorant font-bold text-4xl mb-4 text-h3Two'>
                     What is Shakti?
                 </h2>
                 <p className='font-cormorant max-w-[1000px] text-stone-600 font-light text-xl leading-8'>
